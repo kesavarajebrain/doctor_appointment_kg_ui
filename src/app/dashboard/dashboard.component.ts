@@ -13,12 +13,17 @@ import { NgxSpinnerService } from "ngx-spinner";
 export class DashboardComponent implements OnInit {
   @ViewChild('employeeaddForm', { static: false }) employeeaddForm: NgForm;
   public employeeData: any = {}
+  userRole:any;
 
   constructor(private spinner: NgxSpinnerService
-,    private _snackBar: MatSnackBar, private common_service: CommonService,private route:Router) { }
+,    private _snackBar: MatSnackBar, private common_service: CommonService,private route:Router) { 
+}
 
   ngOnInit() {
+    this.userRole = localStorage.getItem('role')
   }
+
+
 
   saveEmployee() {
     if (this.employeeaddForm.invalid) {

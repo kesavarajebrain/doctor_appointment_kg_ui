@@ -10,10 +10,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { TopnavComponent } from './topnav/topnav.component';
 import { HttpClientModule} from '@angular/common/http';
 import { AttendanceRegisterComponent } from './attendance-register/attendance-register.component';
-import {NgxMaterialTimepickerModule} from 'ngx-material-timepicker';
 import { NgxSpinnerModule } from "ngx-spinner";
 import { NgxSpinnerService } from "ngx-spinner";
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,13 +23,12 @@ import { NgxSpinnerService } from "ngx-spinner";
   imports: [
     BrowserModule,
     NgxSpinnerModule,
-    NgxMaterialTimepickerModule,
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
     AngularMaterialModule,
-    AppRoutingModule,
+    AppRoutingModule
   ],
   providers: [NgxSpinnerService],
   bootstrap: [AppComponent],

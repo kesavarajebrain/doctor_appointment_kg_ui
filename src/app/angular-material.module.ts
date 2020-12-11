@@ -33,10 +33,11 @@ import { MatRadioModule } from '@angular/material/radio';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import {MatNativeDateModule} from '@angular/material/core';
-
+import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 const materialModules = [
   CdkTreeModule,
   MatNativeDateModule,
+  NoopAnimationsModule,
   MatAutocompleteModule,
   MatButtonModule,
   MatCardModule,

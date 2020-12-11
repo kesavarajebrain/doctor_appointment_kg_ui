@@ -3,11 +3,9 @@ import { NgForm } from '@angular/forms';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { CommonService } from '../services/common.service';
 import { Router } from '@angular/router';
-import { NgxMaterialTimepickerModule } from 'ngx-material-timepicker';
 import Swal from 'sweetalert2'
 declare var $:any;
 import { NgxSpinnerService } from "ngx-spinner";
-import { Spinner } from 'ngx-spinner/lib/ngx-spinner.enum';
 
 @Component({
   selector: 'app-attendance-register',

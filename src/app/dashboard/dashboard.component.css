@@ -1,7 +1,7 @@
 .login-bg{
     height: 100vh;
     width: 100%;
-    background: url(https://40obml2t8u691fd442y9pg71-wpengine.netdna-ssl.com/wp-content/uploads/login-page-bg.jpg) no-repeat center center fixed; 
+    background: linear-gradient(13deg, #33333373, #33333373),url(../../assets/1300-half.jpg);
     background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -10,4 +10,7 @@
 
   .example-full-width {
     width: 100%;
+  }
+  h3{
+    color: white;
   }

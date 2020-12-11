@@ -1,12 +1,17 @@
 
   .login-bg{
-    height: 100vh;
+    background: linear-gradient(13deg, #33333373, #33333373),url(../../assets/1300-half.jpg);
+    position: fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    height: -webkit-fill-available;
+    bottom: 0;
     width: 100%;
-    background: url(https://40obml2t8u691fd442y9pg71-wpengine.netdna-ssl.com/wp-content/uploads/login-page-bg.jpg) no-repeat center center fixed; 
-    background-color: white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
+    color: white;
+    min-width: 350px;
+    overflow: hidden;
+    padding: 20px;
   }
 
   .mat-form-field {
